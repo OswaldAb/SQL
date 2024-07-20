@@ -1,3 +1,4 @@
+-- DATA DEFINITION LANGUAGE
 
 CREATE DATABASE base_de_dados; -- crinado base de dados
 
@@ -53,5 +54,4 @@ ADD updated_at DATETIME DEFAULT CURRENT_TIMESTAMP() ON UPDATE CURRENT_TIMESTAMP(
 
 SELECT * FROM users;
 SELECT * FROM roles;
-
 SELECT * FROM users_roles;
