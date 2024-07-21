@@ -10,4 +10,3 @@ CONCAT('Description de', ' ', first_name),
 id 
 FROM users;
 
-DELETE FROM profiles WHERE id <> 1;
